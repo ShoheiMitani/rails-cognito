@@ -19,6 +19,15 @@ gem 'puma', '~> 4.1'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
+gem 'rack-cors'
+
+# Use faraday_middleware for API Client. Read more: https://github.com/lostisland/faraday_middleware/wiki
+gem 'faraday_middleware'
+
+# Use jwt as storage for authentication information
+gem 'jwt'
+gem 'json-jwt'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
